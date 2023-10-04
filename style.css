@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&family=Ropa+Sans&family=Rubik+Mono+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.mynav{
+    background-color: #f23a3ae7 !important;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+.nav-link{
+    color: white !important; 
+    padding: 6px 20px;
+    
+}
+.nav-link:hover{
+    color: rgb(240, 240, 240) !important;
+    border-radius: 6px;
+}
+
+.nav-item i{
+    background-color: black;
+    padding: 8px 8px;
+    border-radius: 100%;
+}
+.navbar-brand{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Caveat', cursive;
+}
+.navbar-toggler{
+    background-color: white;
+    padding: 5px 10px;
+}
+
+/* main body */
+.cards {
+    width: 17%;
+    margin: 50px;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #000;
+    transition: .3s;
+    text-align: center;
+}
+.cards:hover{
+    box-shadow: 5px 5px 10px rgb(130, 130, 130);
+}
+.cards img{
+    width: 100%;
+   border-top-right-radius: 25px;
+   border-top-left-radius: 25px;
+}
+.cards h3{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+}
+.cards button{
+    
+    margin-bottom: 20px;
+    background-color:#f23a3ae7 ;
+    color: white;
+    padding: 5px 20px;
+    border-radius:5px;
+    box-shadow: 5px 5px black;
+    border:2px solid black ;
+    font-family: 'PT Sans', sans-serif;
+    transition: .3s;
+    
+}
+.cards button:hover{
+    box-shadow: none;
+    margin-left: 5px;
+}
+#exp:hover{
+    box-shadow: none;
+    margin-left: 5px;
+}
+#exp{
+    margin-bottom: 20px;
+    background-color:#f23a3ae7 ;
+    color: white;
+    padding: 5px 50px;
+    margin-top: 7%;
+    font-size: 30px;
+    border-radius:5px;
+    box-shadow: 5px 5px black;
+    border:2px solid black ;
+    font-family: 'PT Sans', sans-serif;
+    transition: .3s;
+     transform: translateY(-100px);
+}
+
+.del img{
+    width: 15%;
+}
+.cards p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+#fontpage{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 0%;
+
+}
+@media screen and (max-width:600px) {
+    .cards {
+        width: 40%;
+        margin: 18px;
+        display: inline-block;
+    }
+    #fontpage{
+        font-size: 20px;
+    }
+    #fontpage img{
+        width: 20%;
+    }
+    #exp{
+        transform: translateY(0px);
+    }
+.del img{
+    width: 50%;
+}
+}
